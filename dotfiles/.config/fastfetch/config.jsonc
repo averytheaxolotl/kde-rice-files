@@ -1,0 +1,34 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+"logo": {
+  "type": "auto",
+  "source": "/home/avery/Pictures/hollowmiku.jpg",
+  "width": 32,
+  "height":16,
+	"padding":{
+	"top":0,
+	"left":0,
+	"right":2 
+}
+},
+"modules": [
+    "title",
+    "separator",
+    "uptime",
+    "packages",
+    "shell",
+    "de",
+    "wm",
+    "wmtheme",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "battery",
+    "poweradapter",
+    
+    "colors"
+
+  ]
+}
