@@ -1,0 +1,5 @@
+2025-09-29 09:11:12.283 [info] update#setState disabled
+2025-09-29 09:11:12.283 [info] update#ctor - updates are disabled as there is no update URL
+2025-09-29 09:11:24.125 [error] CodeWindow: detected unresponsive
+2025-09-29 09:11:24.543 [error] CodeWindow: recovered from unresponsive
+2025-09-29 09:11:42.329 [info] Extension host with pid 2375 exited with code: 0, signal: unknown.

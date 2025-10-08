@@ -1,0 +1,4 @@
+2025-10-08 10:15:10.642 [info] Log level: Info
+2025-10-08 10:16:10.458 [info] Log level: Info
+2025-10-08 10:16:10.790 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-10-08 10:17:52.685 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for averytheaxolotl/kde-rice-files: Error: No GitHub authentication session available.

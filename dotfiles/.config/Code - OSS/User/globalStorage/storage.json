@@ -1,0 +1,113 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "7cc842295a1cb6c633090dce19804184513e7064f8170b1f791c0584ac1d06c5",
+    "telemetry.devDeviceId": "82c10e85-4924-464f-b2bf-4f5204327c2c",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/avery/.config"
+            },
+            {
+                "folderUri": "file:///home/avery/projects/kde-rice-files"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1759932907885"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/avery/.config": "__default__profile__",
+            "file:///home/avery/projects/kde-rice-files": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1759932907885": "__default__profile__"
+        }
+    },
+    "theme": "hc-black",
+    "themeBackground": "#000000",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "hc-black",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "titleBarBorder": "#6fc3df",
+            "activityBarBackground": "#000000",
+            "activityBarBorder": "#6fc3df",
+            "sideBarBackground": "#000000",
+            "sideBarBorder": "#6fc3df",
+            "statusBarBorder": "#6fc3df",
+            "windowBorder": "#6fc3df"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/avery/.config",
+            "backupPath": "/home/avery/.config/Code - OSS/Backups/6ec4c2f9f5c679874ee673c27a4f9bd1",
+            "uiState": {
+                "mode": 0,
+                "x": 83,
+                "y": 0,
+                "width": 1200,
+                "height": 724
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/avery/.config",
+                "backupPath": "/home/avery/.config/Code - OSS/Backups/6ec4c2f9f5c679874ee673c27a4f9bd1",
+                "uiState": {
+                    "mode": 0,
+                    "x": 83,
+                    "y": 0,
+                    "width": 1200,
+                    "height": 724
+                }
+            },
+            {
+                "folder": "file:///home/avery/projects/kde-rice-files",
+                "backupPath": "/home/avery/.config/Code - OSS/Backups/dd3cb421097e99b92ed05c0d39e3b261",
+                "uiState": {
+                    "mode": 1,
+                    "x": 374,
+                    "y": 80,
+                    "width": 1200,
+                    "height": 512
+                }
+            }
+        ]
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "aae499c68faa8de675f48afb42928c7c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "d170b6cf0d67b70f8efd9a33462bf4c1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

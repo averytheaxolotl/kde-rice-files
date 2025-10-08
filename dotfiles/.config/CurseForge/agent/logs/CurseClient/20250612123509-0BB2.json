@@ -1,0 +1,1898 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 2994,
+  "Arguments": [
+    "/tmp/.mount_CurseFjLpFnf/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=49972",
+    "--to-port=49992",
+    "--pid=2773",
+    "--appDataPath=/home/avery/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-06-12T16:35:08.4095344Z",
+  "Version": "1.279.0.26201",
+  "BuildDate": "2000-01-01T19:33:22Z",
+  "Start": "2025-06-12T12:35:09.5284119-04:00",
+  "Log": [
+{
+  "timestamp": "2025-06-12T12:35:09.5092272-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-06-12T12:35:09.5226085-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.279.0.26201"
+},
+{
+  "timestamp": "2025-06-12T12:35:09.5240891-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=49972,--to-port=49992,--pid=2773,--appDataPath=/home/avery/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-06-12T12:35:09.5320154-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 2773"
+},
+{
+  "timestamp": "2025-06-12T12:35:11.5964738-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/avery/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-06-12T12:35:11.8560886-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 49972"
+},
+{
+  "timestamp": "2025-06-12T12:35:11.9533071-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-06-12T12:35:12.2934406-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-06-12T12:35:12.2988475-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-06-12T12:35:12.3024061-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-06-12T12:35:12.3068579-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-06-12T12:35:12.5778213-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:35:12.6196095-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.0233932-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.0248777-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.4064642-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.4068003-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/avery/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.477428-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "438.00"
+  }
+},
+{
+  "timestamp": "2025-06-12T12:35:14.529909-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-06-12T12:35:14.5317913-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-06-12T12:35:14.5720633-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.5729567-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.5734812-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.6459454-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-06-12T12:35:14.6465868-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3271663-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 2 instances"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3418831-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/avery/Documents/curseforge/minecraft/Instances/e/"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3752391-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game e instance"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3753375-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/avery/Documents/curseforge/minecraft/Instances/Homestead - A Cozy Survival Experience/"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3786415-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Homestead - A Cozy Survival Experience instance"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3850326-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 850 ms"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3863364-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-06-12T12:35:15.3932303-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.8045277-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.8085035-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2025-06-12T12:35:15.8244489-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 2 detected game instances. Operation took 19 ms"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.8312346-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.833054-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/avery/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-06-12T12:35:15.874962-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/avery/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9073063-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9087454-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9135073-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/avery/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9163467-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/avery/Documents/curseforge/minecraft/Instances/e"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9164677-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/avery/Documents/curseforge/minecraft/Instances/Homestead - A Cozy Survival Experience"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9228887-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9230821-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9630075-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-06-12T12:35:15.9630692-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/avery/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-06-12T12:35:16.4702544-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-06-12T12:35:16.4703022-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/avery/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-06-12T12:35:17.5381257-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "1,469.00"
+  }
+},
+{
+  "timestamp": "2025-06-12T12:35:18.1476347-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-06-12T12:35:18.1476869-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/avery/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-06-12T12:35:18.401592-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "585.00"
+  }
+},
+{
+  "timestamp": "2025-06-12T12:35:42.539559-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:35:42.5829854-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:36:33.9865207-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:36:34.0034504-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:37:02.0757443-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:37:02.0846889-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:37:19.6173952-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:37:19.68882-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:37:35.5026423-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:37:35.5320409-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:38:57.1755717-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:39:03.0146784-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:39:36.7233108-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:39:36.7287428-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:39:41.2518968-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Checking for updates on first load for modpack e"
+},
+{
+  "timestamp": "2025-06-12T12:39:41.2571215-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: e"
+},
+{
+  "timestamp": "2025-06-12T12:39:41.2594197-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.0967886-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Creating new instance at: /home/avery/Documents/curseforge/minecraft/Instances/fun/"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.1317258-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.1"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.1350891-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Creating version path: 1.21.1"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.1353402-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Creating inheritsPath path: 1.21.1"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.3797558-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Checking for updates on first load for modpack fun"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.3799651-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: fun"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.3803268-04:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "No latest files found for instance"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.998317-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-06-12T12:39:48.998498-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "/home/avery/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-06-12T12:39:48.9985913-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.1 is not installed. Will now install it."
+},
+{
+  "timestamp": "2025-06-12T12:39:49.0239904-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar to /home/avery/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:39:50.0961046-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-06-12T12:39:50.10482-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2025-06-12T12:40:03.0662861-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:40:15.0585733-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:40:37.5514098-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-meta.mojang.com/v1/packages/94f420093e771cd1e72614184736b044c747a8df/1.21.1.json to /home/avery/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.json"
+},
+{
+  "timestamp": "2025-06-12T12:40:38.9165992-04:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Installing NeoForge mod loader neoforge-21.1.179."
+},
+{
+  "timestamp": "2025-06-12T12:40:38.9815247-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.39/earlydisplay-4.0.39.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.39/earlydisplay-4.0.39.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:40.7211805-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/loader/4.0.39/loader-4.0.39.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/fancymodloader/loader/4.0.39/loader-4.0.39.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:41.7067258-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:41.7813051-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:41.9994966-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/bus/8.0.2/bus-8.0.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/bus/8.0.2/bus-8.0.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:42.1186012-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:42.2045638-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:42.4610043-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:42.5991685-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/com/electronwill/night-config/toml/3.8.2/toml-3.8.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/electronwill/night-config/toml/3.8.2/toml-3.8.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:42.7267831-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/com/electronwill/night-config/core/3.8.2/core-3.8.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/electronwill/night-config/core/3.8.2/core-3.8.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:43.4499899-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:43.7447492-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:43.8665966-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:43.9802678-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:46.2394702-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:48.6287814-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:48.8564832-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:49.2352539-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:49.477506-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:49.73189-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:49.8675083-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:50.1046934-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm/9.7/asm-9.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.7/asm-9.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:50.4797406-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:50.6071933-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:50.9847898-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:51.6072474-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:51.72946-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:51.9804716-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:55.2611141-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:55.8560587-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:56.2379732-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:56.6182199-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:57.239822-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
+},
+{
+  "timestamp": "2025-06-12T12:40:57.3900709-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:01.581834-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:01.6536997-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:01.7337135-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:02.1450412-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:02.2763255-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:02.3419365-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:02.8689709-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:03.3574384-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-06-12T12:41:04.0738024-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> UpdateAddonFiles"
+},
+{
+  "timestamp": "2025-06-12T12:41:04.0755601-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting project 890573 files from server"
+},
+{
+  "timestamp": "2025-06-12T12:41:04.3456873-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Registering fake download for 'luxor.jar' from https://edge.forgecdn.net/files/4652/82/luxor.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:04.5905623-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip"
+},
+{
+  "timestamp": "2025-06-12T12:41:05.3186341-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 75213ms"
+},
+{
+  "timestamp": "2025-06-12T12:41:05.3197723-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-06-12T12:41:05.6765205-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 356ms"
+},
+{
+  "timestamp": "2025-06-12T12:41:08.6236931-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:09.6220703-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:10.9040543-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:11.2480621-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:11.4963115-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:11.7475624-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:12.3790831-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:12.5017461-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:12.6434249-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:12.7512989-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:16.6120437-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:17.6924623-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:18.0197863-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:18.5930334-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:19.3114696-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:19.6804098-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:20.4776858-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:20.9731833-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:22.0007167-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:22.4844059-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:23.7209054-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:23.8904572-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-universal.jar to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-universal.jar"
+},
+{
+  "timestamp": "2025-06-12T12:41:27.9092629-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://modloaders.forgecdn.net/647622546/maven/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-clientdata.lzma to /home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-clientdata.lzma"
+},
+{
+  "timestamp": "2025-06-12T12:41:39.5200255-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Java version 21.0.4 found at /home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java taking 1687ms"
+},
+{
+  "timestamp": "2025-06-12T12:41:39.6436033-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Java version 21.0.4 found at /home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java taking 122ms"
+},
+{
+  "timestamp": "2025-06-12T12:41:39.6445175-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Using Java version 21.0.4.0 for post installation forge tasks"
+},
+{
+  "timestamp": "2025-06-12T12:41:39.6475261-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\" net.neoforged.installertools.ConsoleTool --task MCP_DATA --input \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip\" --output  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings.txt\" --key mappings\""
+},
+{
+  "timestamp": "2025-06-12T12:41:40.4909895-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\" net.neoforged.installertools.ConsoleTool --task DOWNLOAD_MOJMAPS --version 1.21.1 --side  client --output  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-mappings.txt\"\""
+},
+{
+  "timestamp": "2025-06-12T12:42:15.7169928-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:42:15.7226628-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:42:18.7833453-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\" net.neoforged.installertools.ConsoleTool --task MERGE_MAPPING --left  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings.txt\" --right  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-mappings.txt\" --output  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings-merged.txt\" --classes --fields --methods --reverse-right\""
+},
+{
+  "timestamp": "2025-06-12T12:42:23.2269929-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar\" net.neoforged.jarsplitter.ConsoleTool --input  ./versions/1.21.1/1.21.1.jar --slim  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar\" --extra  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar\" --srg  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings-merged.txt\"\""
+},
+{
+  "timestamp": "2025-06-12T12:42:25.4052142-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:42:26.6875549-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:42:36.5617875-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:42:36.5655115-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:42:39.896617-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar\" net.neoforged.art.Main --input  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar\" --output  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar\" --names  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings-merged.txt\" --ann-fix --ids-fix --src-fix --record-fix\""
+},
+{
+  "timestamp": "2025-06-12T12:43:24.0680593-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/avery/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar:/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar\" net.neoforged.binarypatcher.ConsoleTool --clean  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar\" --output  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-client.jar\" --apply  \"/home/avery/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-clientdata.lzma\"\""
+},
+{
+  "timestamp": "2025-06-12T12:43:31.9368908-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-06-12T12:43:32.0425465-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2025-06-12T12:46:03.1745342-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 151131ms"
+},
+{
+  "timestamp": "2025-06-12T12:46:03.1836581-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2025-06-12T12:47:02.4439043-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 59260ms"
+},
+{
+  "timestamp": "2025-06-12T12:47:02.451158-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-06-12T12:47:03.8902734-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-06-12T12:47:05.3204948-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-06-12T12:47:05.5166951-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-06-12T12:47:06.0511342-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6304/958/geckolib-neoforge-1.21.1-4.7.5.1.jar"
+},
+{
+  "timestamp": "2025-06-12T12:47:06.0518812-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6304/958/geckolib-neoforge-1.21.1-4.7.5.1.jar to /tmp/CF_3lmRzndyF0WlewqL6bQg/flRc6fIouEyymx9vZTVpkg/1.zip"
+},
+{
+  "timestamp": "2025-06-12T12:47:08.670186-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Downloaded file for project GeckoLib - (388172) in 2621ms"
+},
+{
+  "timestamp": "2025-06-12T12:47:08.8798779-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6028/992/pointblank-neoforge-1.21-1.9.6.jar"
+},
+{
+  "timestamp": "2025-06-12T12:47:08.8799858-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6028/992/pointblank-neoforge-1.21-1.9.6.jar to /tmp/CF_3lmRzndyF0WlewqL6bQg/flRc6fIouEyymx9vZTVpkg/2.zip"
+},
+{
+  "timestamp": "2025-06-12T12:47:21.2179257-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:47:21.2222594-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:47:33.3569407-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:47:33.4411366-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:47:37.3868665-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloaded file for project Vic's Point Blank - (961053) in 28507ms"
+},
+{
+  "timestamp": "2025-06-12T12:47:37.4292782-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2025-06-12T12:47:52.4638679-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:47:52.4708161-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:48:08.4224316-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:08.6057393-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T12:48:11.1429005-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:11.145988-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network status changed: Disconnected"
+},
+{
+  "timestamp": "2025-06-12T12:48:12.2415355-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:13.8649627-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.1414998-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.2630305-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.5883746-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.7847523-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.8115727-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.8116185-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.9779009-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:16.9837288-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:18.2451908-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T12:48:18.2471512-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network status changed: Disconnected"
+},
+{
+  "timestamp": "2025-06-12T12:48:18.3969021-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:38.6241793-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:39.6373641-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:39.6388939-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:39.6389032-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2025-06-12T13:13:41.51955-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-06-12T13:13:41.5196121-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/avery/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-06-12T13:13:43.1946621-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:44.7060098-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:44.7134451-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:44.8691579-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:48.2045703-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T13:13:48.2046287-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network status changed: Connected"
+},
+{
+  "timestamp": "2025-06-12T13:13:49.9179886-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T13:13:52.6261271-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:13:52.6317042-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T13:13:59.1580012-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 71703ms"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5490797-04:00",
+  "level": "Error",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Failed to send analytics event.",
+  "error": {
+    "message": "Connection refused (analyticsnew.overwolf.com:443)",
+    "type": "System.Net.Http.HttpRequestException",
+    "stack": [
+      "System.Net.Http.HttpConnectionPool+<ConnectToTcpHostAsync>d__104.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Threading.Tasks.ValueTask`1.get_Result()",
+      "System.Net.Http.HttpConnectionPool+<ConnectAsync>d__103.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Threading.Tasks.ValueTask`1.get_Result()",
+      "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1+ConfiguredValueTaskAwaiter.GetResult()",
+      "System.Net.Http.HttpConnectionPool+<CreateHttp11ConnectionAsync>d__105.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Threading.Tasks.ValueTask`1.get_Result()",
+      "System.Net.Http.HttpConnectionPool+<AddHttp11ConnectionAsync>d__79.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter.GetResult()",
+      "System.Threading.Tasks.TaskCompletionSourceWithCancellation`1+<WaitWithCancellationAsync>d__1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.Analytics.AnalyticsService+<SendAsync>d__9.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.Analytics.AnalyticsService+<TrySendEventAsync>d__7.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishSlow(Boolean)",
+      "System.Threading.Tasks.Task.TrySetException(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception,Task`1&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception)",
+      "Curse.TechService.Analytics.AnalyticsService+<SendAsync>d__9.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Connection refused",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Net.Sockets.Socket+<<ConnectAsync>g__WaitForConnectWithCancellation|285_0>d.MoveNext()",
+        "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+        "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+        "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+        "System.Net.Http.HttpConnectionPool+<ConnectToTcpHostAsync>d__104.MoveNext()"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5941592-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5944806-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5946987-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5953991-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5954071-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.595408-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5955379-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-06-12T13:14:27.5959071-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2025-06-12T13:15:13.8522337-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:15:13.9731025-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T13:15:42.4173338-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-06-12T13:15:42.4222097-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.515844-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 80919ms"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.5165246-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.6267839-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 109ms"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.6499393-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Clearing Discord presence."
+},
+{
+  "timestamp": "2025-06-12T13:15:48.6529279-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Discord RPC client disposed successfully."
+},
+{
+  "timestamp": "2025-06-12T13:15:48.6785322-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.6791921-04:00",
+  "level": "Warn",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.9021891-04:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-06-12T13:15:48.9024034-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-06-12T13:15:48.9104487-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-06-12T13:15:48.9851329-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

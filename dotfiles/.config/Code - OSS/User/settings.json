@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.editorAssociations": {
+        "*.xz": "default"
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true
+}

@@ -1,0 +1,5 @@
+2025-09-18 07:54:08.730 [info] Extension host with pid 3406 started
+2025-09-18 07:54:08.820 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-09-18 07:54:10.403 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-18 07:54:10.928 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-18 07:54:10.931 [info] Extension host with pid 3406 exiting with code 0

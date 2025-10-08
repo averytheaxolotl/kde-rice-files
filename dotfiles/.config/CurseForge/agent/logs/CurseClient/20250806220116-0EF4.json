@@ -1,0 +1,337 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 3828,
+  "Arguments": [
+    "/tmp/.mount_CurseFwuWkPx/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=49527",
+    "--to-port=49547",
+    "--pid=3574",
+    "--appDataPath=/home/avery/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-08-07T02:01:08.9949771Z",
+  "Version": "1.283.2.27468",
+  "BuildDate": "2000-01-03T20:15:36Z",
+  "Start": "2025-08-06T22:01:16.3554749-04:00",
+  "Log": [
+{
+  "timestamp": "2025-08-06T22:01:16.1132778-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-08-06T22:01:16.2423698-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.283.2.27468"
+},
+{
+  "timestamp": "2025-08-06T22:01:16.2621765-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=49527,--to-port=49547,--pid=3574,--appDataPath=/home/avery/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-08-06T22:01:16.4150454-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 3574"
+},
+{
+  "timestamp": "2025-08-06T22:01:36.4666506-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/avery/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-08-06T22:01:38.6314165-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 49527"
+},
+{
+  "timestamp": "2025-08-06T22:01:39.5294401-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-08-06T22:01:42.8569938-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-08-06T22:01:42.9020153-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-08-06T22:01:42.9277413-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-08-06T22:01:42.96779-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-08-06T22:01:43.4394872-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-08-06T22:01:43.7477694-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-08-06T22:01:48.7740586-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-08-06T22:01:48.7871552-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-08-06T22:01:52.0335027-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-08-06T22:01:52.0462936-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-08-06T22:01:52.7262293-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-08-06T22:01:52.7294962-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/avery/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-08-06T22:01:53.2212221-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "1,061.00"
+  }
+},
+{
+  "timestamp": "2025-08-06T22:01:53.5471687-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-08-06T22:01:53.5559721-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-08-06T22:01:53.9222778-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-08-06T22:01:53.9275832-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-08-06T22:01:53.9329102-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-08-06T22:01:54.7977231-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-08-06T22:01:54.7995908-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-08-06T22:01:56.9001455-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-08-06T22:01:56.9731568-04:00",
+  "level": "Warn",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.5807013-04:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-08-06T22:01:57.5872648-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7062513-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7073836-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7193-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7392422-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7460416-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7461488-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7469787-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7624531-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance DB tried to save before it was loaded!"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.7676984-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.849861-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.8670382-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-08-06T22:01:58.1658065-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 387ms"
+},
+{
+  "timestamp": "2025-08-06T22:01:58.3485044-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-08-06T22:01:58.4066646-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

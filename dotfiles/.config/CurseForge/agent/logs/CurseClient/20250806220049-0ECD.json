@@ -1,0 +1,88 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 3789,
+  "Arguments": [
+    "/tmp/.mount_CurseFwuWkPx/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=53023",
+    "--to-port=53043",
+    "--pid=3574",
+    "--appDataPath=/home/avery/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-08-07T02:00:38.9055318Z",
+  "Version": "1.283.2.27468",
+  "BuildDate": "2000-01-03T20:15:36Z",
+  "Start": "2025-08-06T22:00:49.9902487-04:00",
+  "Log": [
+{
+  "timestamp": "2025-08-06T22:00:49.7890584-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-08-06T22:00:49.9156632-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.283.2.27468"
+},
+{
+  "timestamp": "2025-08-06T22:00:49.9299685-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=53023,--to-port=53043,--pid=3574,--appDataPath=/home/avery/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-08-06T22:00:49.9887372-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 3574"
+},
+{
+  "timestamp": "2025-08-06T22:01:09.8437791-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/avery/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-08-06T22:01:12.269762-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 53023"
+},
+{
+  "timestamp": "2025-08-06T22:01:57.5261466-04:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-08-06T22:01:57.5442074-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-08-06T22:01:58.1245845-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-08-06T22:01:58.1470669-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}
