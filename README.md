@@ -1,2 +1,3 @@
-# kde-rice-files
+# kde-rice-dotfiles
+
 mt dotfiles for KDE
